@@ -1,0 +1,504 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Titillium Web", sans-serif;
+    
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    position: fixed;
+    z-index: 9999;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding-top:12px ;
+    padding-bottom: 12px;
+    background-color: white;
+}
+
+nav img {
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    width: 90px;
+    height: 50px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    left: 200px;
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 20px;
+    
+    
+}
+
+nav p {
+    float: right;
+    padding-right: 150px;
+}
+
+.sign {
+    position: relative;
+    top: 76px;
+    background-color: rgb(244,244,244);
+    padding: 40px 20px 40px 40px;
+    height: 30px;
+    
+}
+
+.sign input {
+    position: absolute;
+    top: 30px;
+    left: 285px;
+    padding: 7px 72px 7px 10px;
+    border-radius: 3px;
+    border: 0.5px solid;
+}
+
+.sign input[placeholder="Password"] {
+    left: 590px;
+}
+
+.sign button {
+    position: absolute;
+    left: 880px;
+    padding: 7px 50px 7px 50px;
+    top: 30px;
+    background-color: rgb(2,118,177);
+    border: none;
+    border-radius: 3px;
+}
+
+.sign #remember, #user-pass, #access {
+    position: absolute;
+    font-size: 13px;
+    
+}
+.sign #user-pass a, #access a{
+    text-decoration: none;
+    color: rgb(2,118,177);
+}
+
+.sign #remember {
+    left: 290px;
+    top: 53px;
+}
+
+.sign #user-pass {
+    left: 592px;
+    top: 53px;
+}
+
+.sign #access {
+    left: 882px;
+    top: 53px;
+    
+}
+
+.sign button a {
+    text-decoration: none;
+    color: white;
+}
+
+.section-one {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    top: 57px;
+    background-image: url(images/Sponsored-Content-Main-Image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ .great-savings {
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    background-color: white;
+    height: 320px;
+    width: 420px;
+    padding: 30px;
+    padding-right: 0px;
+ }
+
+ .great-savings h2 {
+    font-size: 35px;
+    margin-top: 3px;
+    font-weight: lighter;
+ }
+
+ .great-savings p {
+    margin-top: -10px;
+ }
+
+ .great-savings button {
+    margin-top: 25px;
+   
+    left: 880px;
+    padding: 12px 17px 12px 17px;
+    top: 30px;
+    background-color: rgb(2,118,177);
+    border: none;
+    border-radius: 3px;
+    color: wheat;
+    font-size: 15px;
+ }
+
+ .section-two {
+    position: relative;
+    top: 58px;
+    background-color:rgba(244, 244, 244, 0.938) ;
+    width: 100%;
+    height: 500px;
+ }
+
+ .section-two img {
+    width: 150px;
+ }
+
+ .section-two h4 {
+    font-weight: lighter;
+    font-size: 34px;
+ }
+
+ .section-two p {
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: -15px;
+ }
+
+ .section-two #link {
+    margin-top: 29px;
+ }
+
+ .section-two a {
+    text-decoration: none;
+    color: rgb(2,118,177);
+ }
+
+ .section-two .impact, .savings, .buying {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    text-align: center;
+ }
+
+ .savings {
+   left: 500px;
+ }
+
+ .buying {
+    left: 900px;
+ }
+
+
+
+
+
+ .section-three {
+    position: relative;
+    top: 39px;
+    height: 580px;
+   
+ }
+
+ .section-three h3 {
+    position: absolute;
+    top: 80px;
+    left: 600px;
+    font-size: 18px;
+ }
+
+ .section-three h4 {
+    position: absolute;
+    top: 130px;
+    left: 400px;
+    font-size: 50px;
+    font-weight: lighter;
+ }
+
+ .section-three #my-credit {
+    top: 240px;
+    left: 380px;
+ }
+
+ .section-three span {
+    color: rgb(2,118,177);
+    border-bottom: 0.7px solid;
+    
+ }
+
+ .section-three #ideas {
+    position: absolute;
+    top: 380px;
+    left: 510px;
+    font-size: 20px;
+ }
+
+ .section-three button {
+    position: absolute;
+    top: 450px;
+    left: 580px;
+    padding: 12px 17px 12px 17px;
+   
+    background-color: rgb(2,118,177);
+    border: none;
+    border-radius: 3px;
+    
+    font-size: 18px;
+ }
+
+ .section-three button a {
+    text-decoration: none;
+    color: white;
+ }
+
+ .section-four {
+    position: relative;
+    top: 0;
+ }
+
+ .div-four-one {
+    position: relative;
+ }
+
+ .div-four-one .dealss {
+    position: absolute;
+    left: 673px;
+    top: 0;
+    background-color: rgb(244,244,244);
+    width:676px;
+    height: 558px;
+
+ }
+
+ .div-four-one .dealss h3 {
+    margin-top: 70px;
+    margin-left: 70px;
+    
+    font-size: 17px;
+ }
+
+ .dealss h2 {
+
+margin-top: 60px;
+margin-left: 65px;
+font-size: 40px;
+font-weight:lighter;
+ }
+
+ .dealss p {
+
+    margin-left: 65px;
+ }
+
+ .dealss #one-shop {
+
+    margin-top: 60px;
+ }
+
+ .dealss a {
+
+    text-decoration: none;
+    color: rgb(2,118,177);
+ }
+
+
+
+ .div-four-two {
+    position: relative;
+    top: 0;
+ }
+
+ .div-four-two img {
+    position: absolute;
+    left: 673px;
+    top: 0px;
+   
+    width:676px;
+    height: 558px;
+
+ }
+
+ .wellness {
+    background-color: rgb(244,244,244);
+    width:676px;
+    height: 558px;
+    position: absolute;
+    top: 0;
+ }
+
+  .wellness h3 {
+    margin-top: 70px;
+    margin-left: 70px;
+    
+    font-size: 17px;
+ }
+
+ .wellness h2 {
+
+margin-top: 60px;
+margin-left: 65px;
+font-size: 40px;
+font-weight:lighter;
+ }
+
+ .wellness p {
+
+    margin-left: 65px;
+ }
+
+ .wellness a {
+
+    text-decoration: none;
+    color: rgb(2,118,177);
+ }
+
+ .section-five {
+    position: relative;
+    top: 590px;
+ }
+
+ .section-five h4 {
+    position: absolute;
+    left: 550px;
+ }
+
+ .section-five h2, .section-five p {
+    font-weight: lighter;
+    padding-left: 20px;
+ }
+
+ .section-five p {
+    padding-bottom: 20px;
+ }
+
+ .managee, .thriving, .recharge {
+    position: absolute;
+    top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+ }
+
+ .managee {
+  left: 100px;
+ }
+
+ .thriving {
+  left: 500px;  
+ }
+
+.recharge {
+left: 900px;
+}
+
+
+ .section-six {
+    position: relative;
+    top: 1100px;
+    background-color:rgb(61,61,61) ;
+    color: white;
+    font-weight: lighter;
+    height: 500px;
+ }
+
+ .section-six ul {
+    display: inline-block;
+  list-style-type: none;
+  font-size: 12px;
+  line-height: 25px;
+ }
+
+ .section-six h2 {
+    font-size: 14px;
+    margin-left: 35px;
+  }
+
+  .accounts, .know-us, .the-go, .legal-one, .support {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  }
+
+  .know-us {
+    left: 300px;
+  }
+
+  .the-go {
+    left: 500px;
+  }
+
+  .legal-one {
+    left: 700px;
+  }
+
+  .support {
+    left: 900px;
+  }
+
+
+
+ .section-seven {
+    position: relative;
+    top: 1081px;
+    background-color: rgb(82,82,82);
+    padding: 30px 30px 30px 80px;
+    font-weight: lighter;
+    color: white;
+ }
+
+ .section-seven p {
+    font-size: 13px;
+    padding-bottom: 9px;
+ }
+
+ .section-seven li {
+    font-size: 13px;
+    padding-bottom: 9px;
+ }
+
+ .section-seven ol {
+    padding-left: -15px;
+    margin-left:-24px ;
+ }
+ 
+ 
+ .foot {
+    position: relative;
+    top: 1086px;
+   
+        position: relative;
+      
+        color: black;
+        padding: 20px;
+ }
+
+ .foot p{
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    font-size: 12px;
+    top: 0;
+ }
+
+ .foot ul {
+    position: absolute;
+    top: -5px;
+    left: 500px;
+ }
+ .foot li {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 15px;
+ }
